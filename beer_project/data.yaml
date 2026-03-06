@@ -1,0 +1,13 @@
+train: train/images
+val: valid/images
+test: test/images
+
+nc: 6
+names: ['A_LeCoq', 'coop_larger', 'karhu', 'koff', 'koti', 'sandels']
+
+roboflow:
+  workspace: nguyns-workspace-7duc1
+  project: yolo_beer
+  version: 1
+  license: Private
+  url: https://app.roboflow.com/nguyns-workspace-7duc1/yolo_beer/1

@@ -1,0 +1,26 @@
+# Beer Brand Detection Dataset Configuration
+# This file configures the YOLO26 model for your 6 beer brands
+
+# Dataset paths - Roboflow will provide these folders
+path: ./dataset  # Root dataset directory
+train: train/images
+val: valid/images
+test: test/images  # Optional - remove if you don't have test set
+
+# Number of classes (6 beer brands)
+nc: 6
+
+# Class names - Must match exactly what you labeled in Roboflow!
+names:
+  0: sandels
+  1: koff
+  2: karhu
+  3: A_LeCoq
+  4: koti
+  5: coop_larger
+
+# Optional: Dataset information
+# You can add any notes here about the dataset
+# Total images: 200
+# Brands: 6 Finnish/Estonian beer brands
+# Labels: Bottle and can detection
